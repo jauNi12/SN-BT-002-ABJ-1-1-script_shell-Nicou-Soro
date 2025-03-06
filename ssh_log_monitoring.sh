@@ -5,9 +5,9 @@ LOG_FILE="/var/log/auth.log" #variable contenant les log a examiner
 HOSTS_DENY="/etc/hosts.deny" #variable pour le fichier contenant les addresses bloquées
 FAILED_ATTEMPTS_LIMIT=5 #variable pour spécifier le nombre de tentative echoué
 TIME_PERIOD=10  #variable pour spécifier le temps de l'attaque en minutes
-EMAIL="nicouejaures003@gmail.com"  # variable pour mon adresse e-mail
+#EMAIL="nicouejaures003@gmail.com"  # variable pour mon adresse e-mail
 
-# Fonction pour envoyer une notification par e-mail
+# Pour envoyer une notification par e-mail mais necessite des configurations en local 
 #send_notification() {
 #    local ip=$1
 #    local subject="Alerte de sécurité : Attaque par force brute détectée"
